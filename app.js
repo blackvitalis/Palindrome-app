@@ -13,5 +13,7 @@ function check() {
   } else {
     alert("Try again!");
   }
-
+  // clearing the input field after checking the palindrome.
+  input.value = "";
+  
 }
